@@ -32,6 +32,15 @@ function getTableNum(){
     }
     
 }
+
+var date= new Date;
+var min_date = date.getDate();
+var reservDate = document.getElementById("reserv_date").value;
+if(reservDate < min_date){
+    console.log(reservDate);
+    alert("Please enter a valid date");
+}
+
 // console.log(document.getElementById("resp_nav").attributes);
 // var links = document.getElementById("navlinks");
 // var links_con = links.getElementsByClassName("link");

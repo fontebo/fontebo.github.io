@@ -44,25 +44,23 @@
     <div class="r_back">
         <h1 class="d_r_texts">Make a Reservation</h1>
         <div class="reserv_content">
-            <form action="#" method="post">
-                <div class="r_content">
-                    <div class="r_items">
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" placeholder="Name" required>
-                    </div>
-                    <div class="r_items">
-                        <label for="date">Date:</label>
-                        <input type="date" name="date" required>
-                    </div>
-                    <div class="r_items">
-                        <label for="tables">Number of Tables (5$ per table)</label>
-                        <input type="number" min="1" max="3" name="tables" required>
-                    </div>
-                    <div class="r_but">
-                        <button>Reserve</button>
-                    </div>
+            <div class="r_content">
+                <div class="r_items">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Name" required>
                 </div>
-            </form>
+                <div class="r_items">
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" required id="reserv_date">
+                </div>
+                <div class="r_items">
+                    <label for="tables">Number of Tables (5$ per table)</label>
+                    <input type="number" min="1" max="3" name="tables" required>
+                </div>
+                <div class="r_but">
+                    <a href="form_handler.html"><button>Reserve</button></a>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
