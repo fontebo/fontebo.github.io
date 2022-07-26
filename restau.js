@@ -25,6 +25,7 @@ window.onload = function(){
 }
 function getTableNum(){
     if(window.prompt("Enter you table number")){
+        alert("Please only order when you are physically present. Thanks");
         window.confirm("Thank you for ordering. Your order is on its way");
     }
     else{
